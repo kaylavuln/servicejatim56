@@ -27,6 +27,15 @@
 		   //Create a view. Please use `cbView` method instead of view method from laravel.
 		   $this->cbView('info_unit_outstanding',$data);
     }
+	
+		public function getDetail($id) {
+			$query = DB::table('v_outstanding_targetds')->whereRaw("area = '".$id."' AND MONTH(tanggal) = MONTH('".Session::get('periode_login')."') AND YEAR(tanggal) = YEAR('".Session::get('periode_login')."') ")->get()->toArray();
+			$data = [];
+		    $data['page_title'] = 'Informasi Unit Target Outstanding';
+		     $data['area'] = $query;
+		   //Create a view. Please use `cbView` method instead of view method from laravel.
+		   $this->cbView('info_unit_outstanding',$data);
+		}
 	    public function cbInit() {
 
 			# START CONFIGURATION DO NOT REMOVE THIS LINE
