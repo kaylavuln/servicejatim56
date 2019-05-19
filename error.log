@@ -271,3 +271,9 @@
 [Wed May 15 18:16:04.033473 2019] [authz_core:error] [pid 11824:tid 1900] [client 116.255.215.25:5472] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/scripts
 [Wed May 15 18:16:05.970496 2019] [authz_core:error] [pid 11824:tid 1900] [client 116.255.215.25:5981] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/scripts
 [Wed May 15 18:18:54.618631 2019] [authz_core:error] [pid 11824:tid 1900] [client 116.255.215.25:49081] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/phpmyadmin
+[Sun May 19 19:00:59.528105 2019] [:error] [pid 5368:tid 1968] [client ::1:56358] PHP Fatal error:  Cannot use object of type stdClass as array in C:\\Users\\Smarty\\Desktop\\servicejatim56\\app\\Http\\Controllers\\AdminUnit3plusOutstandingController.php on line 13, referer: http://localhost/admin
+[Sun May 19 19:04:18.443370 2019] [:error] [pid 5368:tid 1968] [client ::1:56531] PHP Fatal error:  Cannot use object of type stdClass as array in C:\\Users\\Smarty\\Desktop\\servicejatim56\\app\\Http\\Controllers\\AdminUnit3plusOutstandingController.php on line 27, referer: http://localhost/admin
+[Sun May 19 19:10:03.480423 2019] [:error] [pid 5368:tid 1968] [client ::1:56822] PHP Parse error:  syntax error, unexpected ')' in C:\\Users\\Smarty\\Desktop\\servicejatim56\\app\\Http\\Controllers\\AdminUnit3plusOutstandingController.php on line 31, referer: http://localhost/admin
+[Sun May 19 20:20:09.139729 2019] [authz_core:error] [pid 5368:tid 1972] [client 113.133.171.56:57043] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/scripts
+[Sun May 19 20:20:11.729910 2019] [authz_core:error] [pid 5368:tid 1972] [client 113.133.171.56:57412] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/scripts
+[Sun May 19 20:22:51.208628 2019] [authz_core:error] [pid 5368:tid 1968] [client 113.133.171.56:16112] AH01630: client denied by server configuration: C:/xampp/phpMyAdmin/index.php
