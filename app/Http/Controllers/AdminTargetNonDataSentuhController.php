@@ -106,7 +106,8 @@
 	        | 
 	        */
 	        $this->alert        = array();
-	                
+	                $this->alert[] = ['message'=>"Anda berada di periode Login ".date_format(date_create(Session::get('periode_login')),"d M Y"),'type'=>'warning'];
+
 
 	        
 	        /* 
